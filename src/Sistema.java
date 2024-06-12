@@ -6,6 +6,10 @@ public class Sistema {
     private List<VideoStream> transmisiones;
     private boolean detectorMovimiento;
 
+    public short mostrarMenu(){
+        return mostrarMenu();
+    }
+    
     public void agregarCamera(Camara camara){
     
     }
