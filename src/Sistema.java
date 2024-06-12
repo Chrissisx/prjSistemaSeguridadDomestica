@@ -5,7 +5,6 @@ public class Sistema {
     private List<Persona> usuarios;
     private List<VideoStream> transmisiones;
     private boolean detectorMovimiento;
-    private BaseDeDatos bd;
 
     public void agregarCamera(Camara camara){
     

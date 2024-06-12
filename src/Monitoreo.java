@@ -1,5 +1,5 @@
 public class Monitoreo {
-    public String enviarNotificacion(User user, String mensaje) {
-        
+    public String enviarNotificacion(Usuario usuario, String mensaje) {
+        return mensaje;
     }
 }
