@@ -75,7 +75,6 @@ public class IAStyle {
 
     // Update to use the correct relative path to resources
     public static final URL URL_SPLASH = IAStyle.class.getResource("/ImagenLogo/logo.jpeg");
-
     public static final CompoundBorder createBorderRect() {
         return BorderFactory.createCompoundBorder(new LineBorder(Color.lightGray),
                 new EmptyBorder(5, 5, 5, 5));
