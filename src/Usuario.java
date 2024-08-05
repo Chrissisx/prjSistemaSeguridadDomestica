@@ -33,7 +33,7 @@ public class Usuario {
     public void placeComponents(JPanel panel) {
         panel.setLayout(null);
         // Cargar la imagen
-        ImageIcon imageIcon = new ImageIcon("src/ImagenLogo/logoSecureVision.jpeg"); // Ajusta esta ruta a tu imagen
+        ImageIcon imageIcon = new ImageIcon("src/ImagenLogo/logo.jpeg"); // Ajusta esta ruta a tu imagen
         JLabel imageLabel = new JLabel(imageIcon);
         imageLabel.setBounds(150, 10, 100, 100); // Ajusta las coordenadas y el tamaño según sea necesario
         panel.add(imageLabel);
